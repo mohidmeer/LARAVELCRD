@@ -9,3 +9,9 @@ PHP Error:  Class 'Customer' not found in Psy Shell code on line 1
 => "John Doe"
 >>> $Products->save();
 => true
+>>> $Products=new Product();
+=> App\Models\Product {#4462}
+>>> $Products->name='John Doe';
+=> "John Doe"
+>>> $Products->save();
+=> true
